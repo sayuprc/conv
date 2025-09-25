@@ -14,8 +14,8 @@ class IndexAllMigrationLine
      * @param bool
      */
     public function __construct(
-        IndexDropMigrationLine $first = null,
-        IndexAddMigrationLine $last = null
+        ?IndexDropMigrationLine $first = null,
+        ?IndexAddMigrationLine $last = null
     ) {
         $this->first = $first;
         $this->last = $last;
